@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turistando Recife</title>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+    <style>
+        body{
+            width: 100%;
+            overflow-x: hidden;
+        }
+        header{
+            background-color: #9ed8f9;
+            width: 100%;
+            box-shadow: 0px 4px rgba(132, 132, 132, 0.471);
+            align-items: start;
+            
+        }
+        .cabecalho{
+            display: flex;
+            
+            
+        }
+     
+        .menu{
+            display: flex;
+            align-items: flex-end;
+            margin-left: 190px;
+          
+            
+            
+        }
+        
+        .menu ul{
+            list-style: none;
+            display: flex;
+            
+            
+            
+           
+        }
+      
+        .menu ul li a{
+            text-decoration: none;
+            padding: 10px;
+            font-size: 28px;
+            margin-right: 15px;
+            color: rgb(7, 7, 23);
+            font-family: 'Kanit', sans-serif;
+            
+            
+            
+        }
+
+        h1{
+            text-align: center;
+            background-color: #d6eaff;
+            font-family: 'Kanit', sans-serif;
+            box-shadow: 0px 4px rgba(132, 132, 132, 0.471);
+        }
+        #historia p{
+            text-align: justify;
+            width: 95%;
+        }
+        #foto-historia{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        #foto-historia img{
+            width: 50%;
+        }
+        #foto-historia figcaption{
+            text-align: justify;
+            width: 40%;
+            margin-right: 20px
+
+            
+        }
+
+        figure.fotos{
+            margin-left: 160px;
+            margin-top: 20px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        #fotos img{
+            width: 370px;
+            height: 250px;
+            margin: 0;
+            padding: 20px;
+            border-radius: 20px;
+          
+
+          
+        }
+        #fotos img:hover {
+            transform: scale(1.1);
+            transition: transform 0.4s ease-in-out;
+            
+        }
+
+        footer{
+            background-color:#9ed8f9 ;
+            height: 50px;
+            text-align: center;
+            font-family: 'Kanit', sans-serif;
+            box-shadow: 0px 4px rgba(132, 132, 132, 0.471);
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="cabecalho">
+        <img src="img/logoRecife1.png" width="200" height="150" alt="">
+        <div class="menu">
+            <ul>
+                <li><a href="#historia">História</a></li>
+                <li><a href="#foto-historia">Ponto Turístico</a></li>
+                <li><a href="#fotos">Fotos</a></li>
+            </ul>
+        </div>
+    </div>
+    </header>
+        <main>
+            <section>
+                <div id="historia">
+                    <h1>História</h1>
+                    <p>Uma das mais antigas cidades do Brasil, Recife surgiu por volta de 1537 como Ribeira de Mar dos Arrecifes, uma praia de pescadores e ancoradouro, onde se encontram as águas do mar e as dos rios Capibaribe e Beberibe. A povoação do Recife surgiu em 1561.</p>
+                </div>
+                <h1>Marco Zero</h1>
+                <figure id="foto-historia">
+                    <img src="img/marcoZero.jpeg" alt="">
+                    <figcaption>A Praça Rio Branco, também conhecida como Marco Zero, é um espaço público localizado no bairro do Recife da cidade homônima, capital de Pernambuco. O local fica próximo ao Porto do Recife e abriga o Marco Zero da cidade do Recife. É deste marco que são feitas todas as medidas oficiais de distâncias rodoviárias locais.</figcaption>
+                </figure>
+            </section>
+            <section>
+                <h1>Fotos</h1>
+                <figure id="fotos">
+                    
+                    <img src="img/logoRecife.jpg" alt="">
+                    <img src="img/praiaBv.jpg" alt="">
+                    <img src="img/pcMarcoZero.jpg" alt="">
+                    <img src="img/ruaSol.jpg" alt="">
+                    <img src="img/pontesRecife.jpg" alt="">
+                    <img src="img/brennand.jpg" alt="">
+                </figure>
+            </section>
+        </main>
+        <footer>
+            <div>
+                <p>&copy; Copyrihgt: 2023</p>
+            </div>
+        </footer>
+    
+</body>
+</html>
