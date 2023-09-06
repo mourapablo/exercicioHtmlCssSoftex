@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header{
+            background-image: url(img/Recife-1-1536x1122.jpg);
+            display: flex;
+            box-shadow: 2px 2px black;
+            border-radius: 1vw;
+            
+        }
+        h1{
+            margin-left: 30vw;
+            font-size: 3vw;
+        }
+        .corpo{
+            background-color: rgb(144, 255, 255);
+            border-radius: 1vw;
+        }
+        h2{
+            text-align: center;
+            background-color:rgb(87, 160, 151) ;
+            border-radius: 1vw;
+        }
+        .locais{
+            display: flex;
+            flex-wrap: wrap;
+           
+        }
+        .locais figure{
+            text-align: center;
+        }
+        .locais figure img{
+         
+           width: 25vw;
+           height: 20vw;
+           margin-right: 1vw;
+           margin-bottom: 1vw;
+           border-radius: 1vw;
+           transition: transform 0.5s ease;
+
+        }
+        .locais figure img:hover{
+            transform: scale(1.2);
+        }
+
+        .locais figure figcaption{
+            font-size: 1.2em;
+            margin-top: 0.1vw;
+            font-weight: bolder;
+            background-color: rgb(87, 160, 151);
+            border-radius: 1vw;
+            
+        }
+
+        footer{
+            background-image: url(img/Recife-1-1536x1122.jpg);
+            height: 4vw;
+            text-align: center;
+            font-size: 2vw;
+            border-radius: 1vw;
+        }
+
+    
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Melhores lugares para ir em Recife</h1>
+    </header>
+    <main>
+        <section class="corpo">
+            <h2>Meu locais preferidos</h2>
+            <div class="locais">
+                
+                <figure>
+                        <img src="img/20220805111912689285u.png" alt="">
+                        <figcaption>Estádio do Arruda</figcaption>
+                 </figure>   
+                 <figure>
+                        <img src="img/marco.jpg" alt="">
+                        <figcaption>Marco Zero</figcaption>
+                </figure>   
+                <figure>
+                        <img src="img/ieb.jpg" alt="">
+                        <figcaption>Igreja Batista No Cordeiro</figcaption>
+                </figure>   
+                <figure>
+                        <img src="img/Recife-1-1536x1122.jpg" alt="">
+                        <figcaption>Boa viagem</figcaption>
+                </figure>   
+                <figure>
+                        <img src="img/shopping.jpg" alt="">
+                        <figcaption>Shopping Recife</figcaption>
+                </figure>   
+                <figure>
+                        <img src="img/sol.jpg" alt="">
+                        <figcaption>Rua do sol</figcaption>
+                </figure>   
+                    
+
+            </div>
+        </section>
+        <footer>
+            <P>&copy; Copyright: 2023</P>
+        </footer>
+    </main>
+</body>
+
+</html>
