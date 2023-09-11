@@ -1,0 +1,58 @@
+header{
+    background-image: url(img/Recife-1-1536x1122.jpg);
+    display: flex;
+    box-shadow: 2px 2px black;
+    border-radius: 1vw;
+    
+}
+h1{
+    margin-left: 30vw;
+    font-size: 3vw;
+}
+.corpo{
+    background-color: rgb(144, 255, 255);
+    border-radius: 1vw;
+}
+h2{
+    text-align: center;
+    background-color:rgb(87, 160, 151) ;
+    border-radius: 1vw;
+}
+.locais{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.locais figure{
+    text-align: center;
+}
+.locais figure img{
+ 
+   width: 25vw;
+   height: 20vw;
+   margin-right: 1vw;
+   margin-bottom: 1vw;
+   border-radius: 1vw;
+   transition: transform 0.5s ease;
+
+}
+.locais figure img:hover{
+    transform: scale(1.2);
+}
+
+.locais figure figcaption{
+    font-size: 1.2em;
+    margin-top: 0.1vw;
+    font-weight: bolder;
+    background-color: rgb(87, 160, 151);
+    border-radius: 1vw;
+    
+}
+
+footer{
+    background-image: url(img/Recife-1-1536x1122.jpg);
+    height: 4vw;
+    text-align: center;
+    font-size: 2vw;
+    border-radius: 1vw;
+}
