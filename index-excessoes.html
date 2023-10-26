@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="res">
+
+    </div>
+    <script>
+        let res = document.getElementById('res');
+
+        function somar(){
+            try{
+                let num1 = parseInt(prompt('Digite um numero entre 1 e 10'));
+                let num2 = parseInt(prompt('Digite um numero entre 1 e 10'));
+                let soma = num1+num2;
+                if((num1 <1 || num1 >10)||(num2 <1 || num2 >10)){
+                    throw new Error('Você digitou um número fora dos paramêtros')
+                }else{
+                    alert(soma)
+                }
+            }catch(error){
+                    alert('Ocorreu um erro:' + error.message)
+                }
+            finally{
+             let reiniciar = confirm('Deseja reiniciar o processo?')
+             if(reiniciar){
+                somar()
+             }
+                
+            }
+        }
+        somar()
+    </script>
+</body>
+</html>
